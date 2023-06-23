@@ -52,16 +52,33 @@ body {
   display: inline-block;
   width: 2em;
   height: 2em;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   margin-inline: 0.5em;
   border-radius: 50%;
-  animation: bounce 450ms alternate infinite;
+  animation: bounce 700ms alternate infinite;
+}
+.loader_ball:nth-child(1) {
+  background-color: #ff0000;
 }
 .loader_ball:nth-child(2) {
-  animation-delay: 150ms;
+  animation-delay: 100ms;
+  background-color: hsl(38, 100%, 50%);
 }
 .loader_ball:nth-child(3) {
+  animation-delay: 200ms;
+  background-color: hsl(78, 100%, 50%);
+}
+.loader_ball:nth-child(4) {
   animation-delay: 300ms;
+  background-color: #279300;
+}
+.loader_ball:nth-child(5) {
+  animation-delay: 400ms;
+  background-color: #0800fd;
+}
+.loader_ball:nth-child(6) {
+  animation-delay: 500ms;
+  background-color: #3d0093;
 }
 @keyframes bounce {
   from {
