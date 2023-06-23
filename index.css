@@ -1,11 +1,24 @@
 body {
-  padding: 1%;
+  font-size: 3px;
   background-color: black;
 }
+@media (min-width: 768px) {
+  body {
+    font-size: 9px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    font-size: 16px;
+  }
+}
 .loader {
-  margin-top: 15%;
-  position: absolute;
-  transform: translate(-50% -50%);
+  margin-top: 15%;  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,10 +27,10 @@ body {
 }
 .loader_ball {
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
+  width: 2em;
+  height: 2em;
   background-color: #ffffff;
-  margin-inline: 0.3125rem;
+  margin-inline: 0.5em;
   border-radius: 50%;
   animation: bounce 450ms alternate infinite;
 }
@@ -32,13 +45,13 @@ body {
     transform: scaleX(1.25);
   }
   to {
-    transform: translateY(-50px) scaleX(1);
+    transform: translateY(-3em) scaleX(1);
   }
 }
 .title {
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 5rem;
+  font-size: 5em;
   font-style: italic;
   margin-left: 0.5em;
 }
