@@ -3,7 +3,11 @@ html {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
 }
-
+body {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
 #stars {
   width: 1px;
   height: 1px;
@@ -568,8 +572,6 @@ html {
   font-weight: 500;
   font-size: 50px;
   letter-spacing: 10px;
-  margin-top: -30px;
-  padding-left: 10px;
 }
 
 #title_item {
