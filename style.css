@@ -8,6 +8,7 @@ html {
   width: 1px;
   height: 1px;
   border-radius: 50%;
+  overflow: hidden;
   background: transparent;
   box-shadow: 46px 1268px #fff, 1817px 256px #fff, 1877px 1746px #fff,
     637px 1483px #fff, 115px 1880px #fff, 402px 945px #fff, 822px 205px #fff,
@@ -194,6 +195,7 @@ html {
   width: 1px;
   height: 1px;
   border-radius: 50%;
+  overflow: hidden;
   background: transparent;
   box-shadow: 46px 1268px #fff, 1817px 256px #fff, 1877px 1746px #fff,
     637px 1483px #fff, 115px 1880px #fff, 402px 945px #fff, 822px 205px #fff,
@@ -377,6 +379,7 @@ html {
   width: 2px;
   height: 2px;
   border-radius: 50%;
+  overflow: hidden;
   background: transparent;
   box-shadow: 471px 1406px #fff, 1029px 1069px #fff, 170px 1573px #fff,
     1770px 659px #fff, 1860px 4px #fff, 914px 1596px #fff, 414px 100px #fff,
@@ -438,6 +441,7 @@ html {
   width: 2px;
   height: 2px;
   border-radius: 50%;
+  overflow: hidden;
   background: transparent;
   box-shadow: 471px 1406px #fff, 1029px 1069px #fff, 170px 1573px #fff,
     1770px 659px #fff, 1860px 4px #fff, 914px 1596px #fff, 414px 100px #fff,
@@ -496,6 +500,7 @@ html {
   width: 3px;
   height: 3px;
   border-radius: 50%;
+  overflow: hidden;
   background: transparent;
   box-shadow: 1661px 1262px #fff, 888px 1725px #fff, 707px 1833px #fff,
     1229px 155px #fff, 870px 1724px #fff, 162px 357px #fff, 1590px 1400px #fff,
@@ -532,6 +537,7 @@ html {
   width: 3px;
   height: 3px;
   border-radius: 50%;
+  overflow: hidden;
   background: transparent;
   box-shadow: 1661px 1262px #fff, 888px 1725px #fff, 707px 1833px #fff,
     1229px 155px #fff, 870px 1724px #fff, 162px 357px #fff, 1590px 1400px #fff,
@@ -598,7 +604,6 @@ html {
     margin-right: auto;
     margin-left: auto;
     background: transparent;
-    overflow: hidden;
   }
 }
 
