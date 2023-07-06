@@ -576,13 +576,14 @@ html {
   flex-direction: column;
   gap: 10px;
   color: #fff;
+}
+
+#title_item {
   font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 50px;
   letter-spacing: 10px;
-}
-
-#title_item {
+  line-height: 1.5;
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   background-clip: text;
