@@ -10,6 +10,7 @@ html {
   border-radius: 50%;
   overflow: hidden;
   background: transparent;
+  animation-timing-function: linear;
   box-shadow: 46px 1268px #fff, 1817px 256px #fff, 1877px 1746px #fff,
     637px 1483px #fff, 115px 1880px #fff, 402px 945px #fff, 822px 205px #fff,
     1068px 152px #fff, 846px 1010px #fff, 1908px 323px #fff, 1357px 1950px #fff,
@@ -191,7 +192,7 @@ html {
 #stars:after {
   content: " ";
   position: absolute;
-  top: 2000px;
+  top: 0px;
   width: 1px;
   height: 1px;
   border-radius: 50%;
@@ -381,6 +382,7 @@ html {
   border-radius: 50%;
   overflow: hidden;
   background: transparent;
+  animation-timing-function: linear;
   box-shadow: 471px 1406px #fff, 1029px 1069px #fff, 170px 1573px #fff,
     1770px 659px #fff, 1860px 4px #fff, 914px 1596px #fff, 414px 100px #fff,
     1486px 1951px #fff, 288px 1312px #fff, 1871px 811px #fff, 1092px 1911px #fff,
@@ -437,7 +439,7 @@ html {
 #stars2:after {
   content: " ";
   position: absolute;
-  top: 2000px;
+  top: 0px;
   width: 2px;
   height: 2px;
   border-radius: 50%;
@@ -528,12 +530,13 @@ html {
     1491px 964px #fff, 1312px 1480px #fff, 1984px 1651px #fff, 638px 200px #fff,
     1460px 324px #fff, 360px 85px #fff, 1307px 704px #fff, 1205px 1025px #fff,
     353px 1px #fff, 1129px 1145px #fff;
+
   animation: animStar 250s linear infinite;
 }
 #stars3:after {
   content: " ";
   position: absolute;
-  top: 2000px;
+  top: 0px;
   width: 3px;
   height: 3px;
   border-radius: 50%;
@@ -592,10 +595,10 @@ html {
 
 @keyframes animStar {
   from {
-    transform: translateY(0px);
+    transform: translateY(-1000px);
   }
   to {
-    transform: translateY(-2000px);
+    transform: translateY(-5000px);
   }
 }
 
