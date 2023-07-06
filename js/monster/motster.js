@@ -15,7 +15,7 @@ function init(elemid) {
   let canvas = document.getElementById(elemid),
     c = canvas.getContext("2d"),
     w = (canvas.width = window.innerWidth || window.body.innerWidth),
-    h = (canvas.height = window.innerHeight || window.body.innerWidth);
+    h = (canvas.height = window.innerHeight || window.body.innerHeight);
   c.fillStyle = "rgba(30,30,30,1)";
   c.fillRect(0, 0, w, h);
   return { c: c, canvas: canvas };
@@ -25,7 +25,7 @@ window.onload = function () {
   let c = init("canvas").c,
     canvas = init("canvas").canvas,
     w = (canvas.width = window.innerWidth || window.body.innerWidth),
-    h = (canvas.height = window.innerHeight || window.body.innerWidth),
+    h = (canvas.height = window.innerHeight || window.body.innerHeight),
     mouse = { x: false, y: false },
     last_mouse = {};
 
