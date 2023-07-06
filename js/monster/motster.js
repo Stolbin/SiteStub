@@ -146,8 +146,8 @@ window.onload = function () {
     }
   }
 
-  let maxl = 200,
-    minl = 20,
+  let maxl = 150,
+    minl = 80,
     n = 30,
     numt = 900,
     tent = [],
@@ -186,7 +186,7 @@ window.onload = function () {
     }
 
     target.x += target.errx / 10;
-    target.y += target.erry / 10;
+    target.y += target.erry / 50;
 
     t += 0.01;
 
@@ -258,5 +258,5 @@ window.onload = function () {
   });
 
   loop();
-  setInterval(loop, 1000 / 60);
+  setInterval(loop, 1400 / 60);
 };
