@@ -589,7 +589,6 @@ html {
   }
   to {
     transform: translateY(-2000px);
-    overflow-y: hidden;
   }
 }
 
