@@ -229,6 +229,11 @@ window.onload = function () {
   //   mouse.y = false;
   // });
 
+  // canvas.addEventListener("click", function (e) {
+  //   mouse.x = false;
+  //   mouse.y = false;
+  // });
+
   // canvas.addEventListener(
   //   "mousedown",
   //   function (e) {
