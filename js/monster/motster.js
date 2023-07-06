@@ -256,6 +256,14 @@ window.onload = function () {
     draw();
   }
 
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
+
+  window.addEventListener("resize", () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  });
+
   window.addEventListener("resize", function () {
     (w = canvas.width = window.innerWidth),
       (h = canvas.height = window.innerHeight);
