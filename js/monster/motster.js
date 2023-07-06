@@ -212,38 +212,38 @@ window.onload = function () {
     last_target.y = target.y;
   }
 
-  canvas.addEventListener(
-    "mousemove",
-    function (e) {
-      last_mouse.x = mouse.x;
-      last_mouse.y = mouse.y;
+  // canvas.addEventListener(
+  //   "mousemove",
+  //   function (e) {
+  //     last_mouse.x = mouse.x;
+  //     last_mouse.y = mouse.y;
 
-      mouse.x = e.pageX - this.offsetLeft;
-      mouse.y = e.pageY - this.offsetTop;
-    },
-    false
-  );
+  //     mouse.x = e.pageX - this.offsetLeft;
+  //     mouse.y = e.pageY - this.offsetTop;
+  //   },
+  //   false
+  // );
 
-  canvas.addEventListener("mouseleave", function (e) {
-    mouse.x = false;
-    mouse.y = false;
-  });
+  // canvas.addEventListener("mouseleave", function (e) {
+  //   mouse.x = false;
+  //   mouse.y = false;
+  // });
 
-  canvas.addEventListener(
-    "mousedown",
-    function (e) {
-      clicked = true;
-    },
-    false
-  );
+  // canvas.addEventListener(
+  //   "mousedown",
+  //   function (e) {
+  //     clicked = true;
+  //   },
+  //   false
+  // );
 
-  canvas.addEventListener(
-    "mouseup",
-    function (e) {
-      clicked = false;
-    },
-    false
-  );
+  // canvas.addEventListener(
+  //   "mouseup",
+  //   function (e) {
+  //     clicked = false;
+  //   },
+  //   false
+  // );
 
   function loop() {
     window.requestAnimFrame(loop);
