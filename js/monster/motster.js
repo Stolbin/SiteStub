@@ -186,7 +186,7 @@ window.onload = function () {
     }
 
     target.x += target.errx / 10;
-    target.y += target.erry / 50;
+    target.y += target.erry / 10;
 
     t += 0.01;
 
@@ -258,5 +258,5 @@ window.onload = function () {
   });
 
   loop();
-  setInterval(loop, 1400 / 60);
+  setInterval(loop, 1000 / 60);
 };
