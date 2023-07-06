@@ -14,8 +14,8 @@ window.requestAnimFrame = function () {
 function init(elemid) {
   let canvas = document.getElementById(elemid),
     c = canvas.getContext("2d"),
-    w = (canvas.width = window.innerWidth || element.innerWidth),
-    h = (canvas.height = window.innerHeight || element.innerHeight);
+    w = (canvas.width = window.innerWidth),
+    h = (canvas.height = window.innerHeight);
   c.fillStyle = "rgba(30,30,30,1)";
   c.fillRect(0, 0, w, h);
   return { c: c, canvas: canvas };
@@ -24,8 +24,8 @@ function init(elemid) {
 window.onload = function () {
   let c = init("canvas").c,
     canvas = init("canvas").canvas,
-    w = (canvas.width = window.innerWidth || element.innerWidth),
-    h = (canvas.height = window.innerHeight || element.innerHeight),
+    w = (canvas.width = window.innerWidth),
+    h = (canvas.height = window.innerHeight),
     mouse = { x: false, y: false },
     last_mouse = {};
 
