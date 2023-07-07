@@ -593,19 +593,33 @@ html {
 }
 @keyframes animStar {
   from {
-    transform: translateY(-2000px);
+    transform: translateY(-2100px);
   }
   to {
     transform: translateY(-5000px);
   }
 }
-@media (min-width: 1900px) {
-  .star_box {
-    width: 95%;
-    margin-right: auto;
-    margin-left: auto;
-    background: transparent;
+@media (min-width: 500px) {
+  @keyframes animStar {
+    from {
+      transform: translateY(-1500px);
+    }
+    to {
+      transform: translateY(-5000px);
+    }
   }
+}
+@media (min-width: 768px) {
+  @keyframes animStar {
+    from {
+      transform: translateY(-1200px);
+    }
+    to {
+      transform: translateY(-5000px);
+    }
+  }
+}
+@media (min-width: 1200px) {
   @keyframes animStar {
     from {
       transform: translateY(-1000px);
@@ -615,9 +629,11 @@ html {
     }
   }
 }
-
-/* #canvas {
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-} */
+@media (min-width: 1900px) {
+  .star_box {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    background: transparent;
+  }
+}
