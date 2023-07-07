@@ -591,22 +591,28 @@ html {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 @keyframes animStar {
   from {
-    transform: translateY(-1000px);
+    transform: translateY(-2000px);
   }
   to {
     transform: translateY(-5000px);
   }
 }
-
 @media (min-width: 1900px) {
   .star_box {
     width: 95%;
     margin-right: auto;
     margin-left: auto;
     background: transparent;
+  }
+  @keyframes animStar {
+    from {
+      transform: translateY(-1000px);
+    }
+    to {
+      transform: translateY(-5000px);
+    }
   }
 }
 

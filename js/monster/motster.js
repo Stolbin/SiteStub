@@ -256,13 +256,13 @@ window.onload = function () {
     draw();
   }
 
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty("--vh", `${vh}px`);
-
-  window.addEventListener("resize", () => {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty("--vh", `${vh}px`);
-  });
+  // window.addEventListener("resize", () => {
+  //   (w = canvas.height = window.innerHeight = window.innerWidth * 0.01),
+  //     document.documentElement.style.setProperty("--vw", `${vw}px`);
+  //   ((h = canvas.width = window.innerHeight * 0.01),
+  //   document.documentElement.style.setProperty("--vh", `${vh}px`)),
+  //     loop();
+  // });
 
   window.addEventListener("resize", function () {
     (w = canvas.width = window.innerWidth),
