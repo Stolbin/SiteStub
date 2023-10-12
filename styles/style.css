@@ -571,13 +571,13 @@ html {
 
 #title {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+  opacity: 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: #fff;
+  animation: title 2s cubic-bezier(0.8, 0.9, 0.6, 1.1) forwards;
 }
 
 #title_item {
@@ -635,5 +635,19 @@ html {
     margin-right: auto;
     margin-left: auto;
     background: transparent;
+  }
+}
+@keyframes title {
+  0% {
+    top: 50%;
+    left: -500%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  100% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
   }
 }
